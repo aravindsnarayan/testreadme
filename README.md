@@ -53,7 +53,6 @@ The project also uses npm for frontend dependencies:
 2. **Clone Repositories:**
    ```bash
    git clone https://github.com/Fairgate/fairgate_v4.git  # Clones the main Fairgate V4 repository
-   git clone https://github.com/Fairgate/fairgate_admin.git # Clones the Fairgate admin repository
    ```
 
 3. **Download and Extract Zip File:** Download  `fairgate_setup.zip` from [link](https://pitsolutions-my.sharepoint.com/:u:/p/aravind_sn/Ec8Ps7iepZFJvxPxhT4WJuoB8_XoQ2mM-g2tLBI4NofXWA) and extract it to the project directory.  This zip file contains Docker Compose configuration and other setup files.
@@ -68,15 +67,11 @@ The project also uses npm for frontend dependencies:
    docker exec -it fairgate-web /bin/bash  # Opens a bash shell inside the running fairgate-web container.
    cd fairgate_v4                         # Changes the working directory to the Fairgate V4 project directory.
    cp ../fairgate_setup/v4/.env.local.php .env.local.php # Copies the local environment configuration file for Fairgate V4.
-   composer install                        # Installs the project dependencies using Composer.
-   cd ../fairgate_admin                    # Changes the working directory to the Fairgate admin project directory.
-   cp ../fairgate_setup/admin/.env.local.php .env.local.php # Copies the local environment configuration file for the Fairgate admin panel.
-   composer install                        # Installs the admin panel dependencies using Composer.
+   composer install                        # Installs the project dependencies using Composer.                        # Installs the admin panel dependencies using Composer.
    ```
 
 6. **Access the Solution:**
    * Backend: `http://localhost:8080/fruitss/backend/signin`
-   * Admin: `http://localhost:8081/signin`
 
 7. **Git Configuration (optional):** This command prevents git from tracking file permission changes.
    ```bash
