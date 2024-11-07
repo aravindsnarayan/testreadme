@@ -1,10 +1,7 @@
 # Fairgate V4
 
-This project is a Symfony 6.4 application.
+This is a web application built withSymfony 6.4, a powerful PHP framework for web applications. This project follows best practices and utilizes the latest Symfony features to build a scalable and maintainable web application.
 
-## Project Overview
-
-Fairgate V4 is a comprehensive application built using the Symfony framework (version 6.4).  It leverages various Symfony components and third-party bundles to provide a robust and feature-rich platform.
 
 ## Technologies Used
 
@@ -55,7 +52,7 @@ The project also uses npm for frontend dependencies:
    git clone https://github.com/Fairgate/fairgate_v4.git  # Clones the main Fairgate V4 repository
    ```
 
-3. **Download and Extract Zip File:** Download  `fairgate_setup.zip` from [link](https://pitsolutions-my.sharepoint.com/:u:/p/aravind_sn/Ec8Ps7iepZFJvxPxhT4WJuoB8_XoQ2mM-g2tLBI4NofXWA) and extract it to the project directory.  This zip file contains Docker Compose configuration and other setup files.
+3. **Download and Extract Zip File:** Download  `fairgate_v4-setup.zip` from [link](https://pitsolutions.sharepoint.com/:u:/s/ProjectManagement/Agile6_Php/EWQTSnA3KPpBrRbFolOnh1kBlyFNJZKULq07xLYmy1k9qQ) and extract it to the project directory.  This zip file contains Docker Compose configuration and other setup files.
 
 4. **Run Docker Containers:**
    ```bash
@@ -66,23 +63,16 @@ The project also uses npm for frontend dependencies:
    ```bash
    docker exec -it fairgate-web /bin/bash  # Opens a bash shell inside the running fairgate-web container.
    cd fairgate_v4                         # Changes the working directory to the Fairgate V4 project directory.
-   cp ../fairgate_setup/v4/.env.local.php .env.local.php # Copies the local environment configuration file for Fairgate V4.
-   composer install                        # Installs the project dependencies using Composer.                        # Installs the admin panel dependencies using Composer.
+   composer install                        # Installs the project dependencies using Composer.
+   composer dump-env dev                  # Dumps the .env.local.php file with the current environment variables.
    ```
+The generated .env.local.php should be populated with the approprate values.
 
 6. **Access the Solution:**
-   * Backend: `http://localhost:8080/fruitss/backend/signin`
+   * Backend: `http://localhost:8080/fg-standard-club/backend/signin`
 
 7. **Git Configuration (optional):** This command prevents git from tracking file permission changes.
    ```bash
    git config --global core.filemode false
    ```
 
-## Contributing
-
-(Contribution guidelines would go here.)
-
-
-## License
-
-(License information would go here.)
