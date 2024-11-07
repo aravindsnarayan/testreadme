@@ -1,6 +1,6 @@
 # Fairgate V4
 
-This is a web application built withSymfony 6.4, a powerful PHP framework for web applications. This project follows best practices and utilizes the latest Symfony features to build a scalable and maintainable web application.
+This is a web application built with Symfony 6.4, a powerful PHP framework for web applications. This project follows best practices and utilizes the latest Symfony features to build a scalable and maintainable web application.
 
 
 ## Technologies Used
