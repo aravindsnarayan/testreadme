@@ -40,7 +40,6 @@ The project also uses npm for frontend dependencies:
 **Prerequisites:**
 
 * **Operating System:** Linux (Ubuntu recommended) or Windows with WSL2 (Ubuntu recommended)
-* **Access:** Access to Fairgate Repository (repositories are private, ensure you have the required permissions).
 * **Software:** Docker Engine with docker compose, IDE (e.g., PHPStorm recommended)
 
 **Step-by-Step Setup:**
@@ -57,7 +56,7 @@ The project also uses npm for frontend dependencies:
    git clone https://github.com/Fairgate/fairgate_admin.git # Clones the Fairgate admin repository
    ```
 
-3. **Download and Extract Zip File:** Download `fairgate_setup.zip` from [https://pitsolutions-my.sharepoint.com/:u:/p/aravind_sn/Ec8Ps7iepZFJvxPxhT4WJuoB8_XoQ2mM-g2tLBI4NofXWA?e=dLtdKj](https://pitsolutions-my.sharepoint.com/:u:/p/aravind_sn/Ec8Ps7iepZFJvxPxhT4WJuoB8_XoQ2mM-g2tLBI4NofXWA?e=dLtdKj) and extract it to the project directory.  This zip file contains Docker Compose configuration and other setup files.
+3. **Download and Extract Zip File:** Download  `fairgate_setup.zip` from [link](https://pitsolutions-my.sharepoint.com/:u:/p/aravind_sn/Ec8Ps7iepZFJvxPxhT4WJuoB8_XoQ2mM-g2tLBI4NofXWA) and extract it to the project directory.  This zip file contains Docker Compose configuration and other setup files.
 
 4. **Run Docker Containers:**
    ```bash
